@@ -1,0 +1,398 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+}
+:root {
+  --primary-color: #EC255A;
+  --color-white: #fff;
+  --color-black: #000;
+  --header-footer-bg: #293462;
+}
+img {
+  max-width: 100%;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+header {
+  background-color: var(--color-black);
+  padding: 15px;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  color: #fff;
+}
+.logo a {
+  color: #fff;
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin-bottom: 6px;
+  display: inline-block;
+}
+
+.nav-bar ul {
+}
+.nav-bar ul li {
+  display: inline-block;
+}
+.nav-bar ul li a {
+  color: var(--color-white);
+  padding: 5px 10px;
+  font-size: 16px;
+  transition: 0.5s;
+}
+.nav-bar ul li a.active {
+  color: var(--primary-color);
+}
+.nav-bar ul li a:hover {
+  color: var(--primary-color);
+}
+span.slogaan {
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+/* Header End */
+
+/* membarship toast start */
+
+.shipping-tost {
+  text-align: center;
+  background-color: var(--primary-color);
+}
+p.membarship {
+  margin: 0;
+  padding: 10px 0;
+  color: var(--color-white);
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+p.membarship span {
+  color: var(--color-black);
+}
+/* membarship toast End */
+
+/* banner Section Seart */
+.banner {
+  background-image: url("../images/portrait-young-girl-red-beret-painting-her-lips-with-bright-lipstick-pink-background.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px 0;
+}
+.banner-content {
+  width: 40%;
+  margin-bottom: 60px;
+}
+
+.banner-content h4 {
+  color: var(--primary-color);
+  border-bottom: 2px solid var(--primary-color);
+  margin-bottom: 10px;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.banner-content h1 {
+  color: var(--color-white);
+  font-size: 71px;
+  letter-spacing: 1px;
+  font-weight: 700;
+}
+
+.banner-content h3 {
+  color: var(--color-white);
+  font-size: 26px;
+  letter-spacing: 2px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.banner-content p {
+  color: var(--color-white);
+  text-align: justify;
+  line-height: 22px;
+  padding-right: 120px;
+  font-size: 14px;
+}
+.button {
+  display: inline-block;
+}
+
+.button a {
+  border: 1px solid var(--primary-color);
+  color: var(--primary-color);
+  padding: 10px 40px;
+  transition: .5s;
+}
+.button a:hover {
+  background: var(--primary-color);
+  color: var(--color-white);
+}
+/* banner Section End */
+
+/* Counter section End */
+.counter {
+  background-color: var(--primary-color);
+  color: var(--color-white);
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 70px;
+  margin-bottom: 70px;
+  padding: 30px 0;
+  border-radius: 10px;
+}
+.subscriber h1 {
+  font-size: 60px;
+}
+.subscriber span {
+  font-size: 26px;
+}
+.followers h1 {
+  font-size: 60px;
+}
+.followers span {
+  font-size: 26px;
+}
+.likes h1 {
+  font-size: 60px;
+}
+.likes span {
+  font-size: 26px;
+}
+/* Counter section start */
+
+/* Collection section Start */
+.collection-list {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  margin-bottom: 150px;
+}
+.titel h1 {
+  font-size: 60px;
+  margin-bottom: 50px;
+}
+.collections-name {
+  color: var(--primary-color);
+  margin-bottom: 10px;
+  font-weight: 600 !important;
+}
+ul.list-items li {
+  padding: 5px 0;
+  font-weight: 400;
+}
+/* Collection section ENd */
+
+/* About Section Start */
+.about {
+  /* display: grid;
+  grid-template-columns: repeat(2,1fr); */
+  position: relative;
+  margin-bottom: 50px;
+}
+.about-left {
+  height: 720px;
+  width: 50%;
+  overflow: hidden;
+  border-radius: 0 0 20px 0;
+  position: relative;
+}
+.about-right {
+  position: absolute;
+  top: -97px;
+  width: 50%;
+  left: 44%;
+  border-radius: 15px;
+}
+
+.about-content {
+  width: 65%;
+  margin-left: 216px;
+  margin-top: 20px;
+}
+.about-image-right {
+  border-radius: 20px;
+  overflow: hidden;
+}
+.about-image-right {
+  border-radius: 20px 0 0 20px;
+  overflow: hidden;
+  width: 112%;
+  height: 499px;
+}
+
+.about-content h1 {
+  margin-bottom: 10px;
+}
+
+.about-content p {
+  line-height: 22px;
+  text-align: justify;
+  margin-bottom: 60px;
+}
+/* About Section End */
+
+
+/* Products Items Section Start */
+.products-cetagories {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+.products-card{
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  border-radius: 10px;
+  text-align: center;
+  padding-bottom: 32px;
+  margin-bottom: 20px;
+}
+.products-image {
+  width: 92%;
+  height: 265px;
+  margin: auto;
+  margin-top: 10px;
+  overflow: hidden;
+  border-radius: 10px;
+  margin-bottom: 31px;
+}
+.products-card h2 {
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.products-card p {
+    margin-bottom: 30px;
+    text-align: justify;
+    padding: 0px 12px;
+    color: #8b7c7c;
+    font-size: 15px;
+    line-height: 22px;
+}
+/* Products Items Section End */
+
+/* Conatact Section Start */
+.contact {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  position: relative;
+  margin-top: 150px;
+  margin-bottom: 100px;
+
+}
+.contact-right {
+  width: 100%;
+  height: 720px;
+  overflow: hidden;
+  border-radius: 20px 0 0 20px;
+  z-index: -1;
+  margin-top: 110px;
+}
+.contact-image-right {
+  border-radius: 0 20px 20px 0;
+  overflow: hidden;
+  width: 112%;
+  height: 499px;
+}
+.contactUs {
+  width: 76%;
+  margin-top: 31px;
+  margin: auto;
+}
+.contactUs h1 {
+  margin-bottom: 20px;
+  margin-top: 30px;
+  font-size: 40px;
+}
+.contactUs p {
+  margin-bottom: 54px;
+  text-align: justify;
+  /* padding: 0px 12px; */
+  color: #8b7c7c;
+  font-size: 15px;
+  line-height: 22px;
+}
+/* Conatact Section End */
+
+
+/* Newslatter section start */
+.newslatter {
+  background-color: var(--primary-color);
+  color: var(--color-white);
+  margin-top: 70px;
+  margin-bottom: 70px;
+  padding: 50px 0;
+  border-radius: 10px;
+  text-align: center;
+}
+.newslatter h2 {
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.newslatter-frm input {
+    padding: 10px 10px;
+    outline: none;
+    width: 400px;
+    border: none;
+    margin-right: 30px;
+}
+form.newslatter-frm button {
+    padding: 10px 20px;
+    outline: none;
+    color: var(--color-white);
+    background: var(--color-black);
+    border: none;
+    font-weight: 600;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+/* Newslatter section End */
+
+
+/* Footer section start */
+footer{
+  background-color: var(--color-black);
+  color: var(--color-white);
+  padding: 100px 0;
+  text-align: center;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+.social-media a {
+  padding: 10px 8px;
+  display: inline-block;
+  color: var(--color-white);
+  font-size: 14px;
+}
+span.footer-txt {
+    font-size: 15px;
+}
+
+.footer-logo a {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.footer-logo span {
+    color: var(--primary-color);
+}
+/* Footer section End */
