@@ -89,6 +89,9 @@ p.membarship {
 p.membarship span {
   color: var(--color-black);
 }
+.cosmetic{
+  color: var(--primary-color);
+}
 /* membarship toast End */
 
 /* banner Section Seart */
