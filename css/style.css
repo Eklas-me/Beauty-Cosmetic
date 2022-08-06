@@ -367,6 +367,11 @@ form.newslatter-frm button {
     font-weight: 600;
     text-transform: uppercase;
     cursor: pointer;
+    transition: .5s;
+}
+form.newslatter-frm button:hover {
+    background: #fff;
+    color: #000;
 }
 /* Newslatter section End */
 
